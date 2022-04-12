@@ -34,6 +34,7 @@ body {
     padding: 0 30px;
 }
 
+
 .nav-bar ul li a {
     margin-right: 0;
     display: block;
@@ -213,11 +214,6 @@ body {
 }
 
 
-.my-skills .html {
-
-}
-
-
 .my-skills .css-box {
     margin: 40px;
 
@@ -271,3 +267,285 @@ body {
     font-size: 150px;
 }
 
+@media screen and (max-width: 450px) {
+
+    #contact {
+        position: absolute;
+        top: 12%;
+        left: 10%;
+        margin: 0%;
+        width: 20vh;
+        padding: 5px;
+    }
+
+    #projects {
+        position: absolute;
+        top: 12%;
+        left: 55%;
+        margin: 0%;
+        padding: 5px;
+    }
+
+    .nav-bar {
+        margin: 0px;
+        padding: 10vh;
+        padding-left: 0vh;
+        padding-top: 0vh;
+        height: 10vh;
+        width: 46vh;
+        display: flex;
+        border-radius: 2.5412960609911055vh;
+        background-color: #2C2F33;
+        box-shadow: 1px 9px 46px -2px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 9px 46px -2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 9px 46px -2px rgba(0,0,0,0.75);
+    }
+
+    .nav-bar ul li {
+        list-style: none;
+        padding: 0 1.270648030495552vh;
+    }
+    
+    .nav-bar ul li a {
+        margin-right: 0;
+        display: block;
+        height: 3.81vh;
+        width: 13.97vh;
+        text-decoration: none;
+        color: #2C2F33;
+        background-color: #7289DA;
+        font-size: 2.0330368487928845vh;
+        padding: 0.63vh;
+        border-radius: 1.27vh;
+    }
+    
+    .nav-bar ul li a i {
+        margin-right:  0.6353240152477764vh;
+    }
+
+    .code-block {
+        display: none;
+    }
+    
+    .about-me img {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1224px) {
+    .code-block {
+        position: absolute;
+        top: 27%;
+        margin-left: 610px;
+        color:#7289DA;
+        width: 450px;
+        height: 250px;
+        background-color:#2C2F33;
+        padding: 45px;
+        border-radius: 10px;
+        font-size: 20px;
+        box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+    }
+
+    .my-skills h1 {
+        position: absolute;
+        top: 175vh;
+        font-family: 'Montserrat', sans-serif; 
+        color:#2C2F33;
+        font-size: 50px;
+    }
+
+    .about-me img {
+        position: absolute;
+        top: 90%;
+        left: 70%;
+        width: 300px;
+        border-radius: 40px;
+        opacity: 0.8;
+    }
+}
+
+@media screen and (max-width: 1382px) and (min-width: 1346px) {
+    .code-block {
+        position: absolute;
+        top: 27%;
+        margin-left: 790px;
+        color:#7289DA;
+        width: 450px;
+        height: 250px;
+        background-color:#2C2F33;
+        padding: 45px;
+        border-radius: 10px;
+        font-size: 20px;
+        box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+    }
+
+    .my-skills h1 {
+        position: absolute;
+        top: 190vh;
+        font-family: 'Montserrat', sans-serif; 
+        color:#2C2F33;
+        font-size: 50px;
+    }
+
+    .about-me img {
+        position: absolute;
+        top: 110%;
+        left: 65%;
+        width: 400px;
+        border-radius: 40px;
+        opacity: 0.8;
+    }
+}
+
+
+@media screen and (max-width: 1346px) {
+    .code-block {
+        position: absolute;
+        top: 27%;
+        margin-left: 760px;
+        color:#7289DA;
+        width: 450px;
+        height: 250px;
+        background-color:#2C2F33;
+        padding: 45px;
+        border-radius: 10px;
+        font-size: 20px;
+        box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+    }
+
+    .my-skills h1 {
+        position: absolute;
+        top: 190vh;
+        font-family: 'Montserrat', sans-serif; 
+        color:#2C2F33;
+        font-size: 50px;
+    }
+
+    .about-me img {
+        position: absolute;
+        top: 110%;
+        left: 65%;
+        width: 400px;
+        border-radius: 40px;
+        opacity: 0.8;
+    }
+
+}
+
+
+@media screen and (max-width: 1300px) {
+    .code-block {
+        position: absolute;
+        top: 27%;
+        margin-left: 700px;
+        color:#7289DA;
+        width: 450px;
+        height: 250px;
+        background-color:#2C2F33;
+        padding: 45px;
+        border-radius: 10px;
+        font-size: 20px;
+        box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+    }
+
+    .my-skills h1 {
+        position: absolute;
+        top: 185vh;
+        font-family: 'Montserrat', sans-serif; 
+        color:#2C2F33;
+        font-size: 50px;
+    }
+
+    .about-me img {
+        position: absolute;
+        top: 100%;
+        left: 70%;
+        width: 350px;
+        border-radius: 40px;
+        opacity: 0.8;
+    }
+
+}
+
+
+@media screen and (max-width: 1240px) {
+    .code-block {
+        position: absolute;
+        top: 27%;
+        margin-left: 630px;
+        color:#7289DA;
+        width: 450px;
+        height: 250px;
+        background-color:#2C2F33;
+        padding: 45px;
+        border-radius: 10px;
+        font-size: 20px;
+        box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+    }
+
+    .my-skills h1 {
+        position: absolute;
+        top: 180vh;
+        font-family: 'Montserrat', sans-serif; 
+        color:#2C2F33;
+        font-size: 50px;
+    }
+
+    .about-me img {
+        position: absolute;
+        top: 90%;
+        left: 70%;
+        width: 350px;
+        border-radius: 40px;
+        opacity: 0.8;
+    }
+
+}
+
+@media screen and (max-width: 1166px) {
+    .code-block {
+        position: absolute;
+        top: 27%;
+        margin-left: 580px;
+        color:#7289DA;
+        width: 450px;
+        height: 250px;
+        background-color:#2C2F33;
+        padding: 45px;
+        border-radius: 10px;
+        font-size: 20px;
+        box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 9px 46px 3px rgba(0,0,0,0.75);
+    }
+
+    .my-skills h1 {
+        position: absolute;
+        top: 180vh;
+        font-family: 'Montserrat', sans-serif; 
+        color:#2C2F33;
+        font-size: 50px;
+    }
+
+    .about-me img {
+        position: absolute;
+        top: 85%;
+        left: 70%;
+        width: 350px;
+        border-radius: 40px;
+        opacity: 0.8;
+    }
+
+}
