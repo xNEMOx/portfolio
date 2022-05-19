@@ -5,5 +5,4 @@ My portfolio.
 - HTML
 - CSS
 
-# Live Demo
-- https://neymat.netlify.app
+
